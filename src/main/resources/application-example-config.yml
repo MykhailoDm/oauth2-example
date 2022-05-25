@@ -1,0 +1,10 @@
+server:
+  port: 8087
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 'client-id'
+            client-secret: 'client-secret'
